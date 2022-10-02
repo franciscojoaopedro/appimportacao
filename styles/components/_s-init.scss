@@ -1,0 +1,38 @@
+
+.s-init{
+    background: #7678ed;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .inicio{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .page_init{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .text-seja-bem-vindo{
+                    h2{
+                        color: #fff;
+                    }
+                }
+                .btn-login{
+                    margin: 10px;
+                    width: 150px;
+                    button{
+                        width: 100%;
+                        border-radius: 4px;
+                        color: #fff;
+                        background: #06d6a0;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
